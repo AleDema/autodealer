@@ -7,7 +7,7 @@
     </div>
 
     <div class="mb-3">
-      <FiatButtons></FiatButtons>
+      <FiatButtons v-model="currency"></FiatButtons>
     </div>
     <div class="mb-3">
       <small id="emailHelp" class="form-text text-muted">This convert all USDT to {{ currency }} and transfers the funds
