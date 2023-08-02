@@ -101,11 +101,9 @@
     </button>
   </form>
 
-  <code class="mt-2">{{ result }}</code>
-
-
+  <div class="mt-2">{{ result }}</div>
   <Chart :options="{
-    width: '100%',
+    width: 1200,
     height: 675,
     symbol: 'BINANCE:BTCUSD',
     interval: 'D',
